@@ -4,6 +4,8 @@ import Layout from '@src/layout';
 import { authenticatorCall } from '@utils/authenticator';
 import { createCall } from './createCall';
 
+import './create.scss'
+
 class Create extends React.Component {
   constructor(props) {
     super(props);
