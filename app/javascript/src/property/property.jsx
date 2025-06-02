@@ -16,8 +16,7 @@ class Property extends React.Component {
       imageURLs: [],
       authenticated:false
     }
-    this.authenticateUser = this.authenticateUser.bind(this);
-    this.getProperty = this.getProperty.bind(this);
+
   }
 
   authenticateUser () {
