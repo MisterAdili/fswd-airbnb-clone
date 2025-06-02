@@ -21,4 +21,8 @@ class StaticPagesController < ApplicationController
     render 'user'
   end
 
+  def success
+    render 'success'
+  end
+
 end
